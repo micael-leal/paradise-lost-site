@@ -4,7 +4,7 @@
     padding: 0px;
 }
 body{
-    background-image: url('../images/obsidian.jpg');
+    background-image: url('../images/obsidian3cropped.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -36,6 +36,9 @@ li a{
     font-size: 25px;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
+}
+li a:hover{
+    background-color: rgba(91, 93, 85, 0.491);
 }
 .sticky{
     position: fixed;
