@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('../images/obsidian.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section{
+    height: 100vh;
+    width: 1170px;
+    background-color: rgba(165, 169, 153, 0.402);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
