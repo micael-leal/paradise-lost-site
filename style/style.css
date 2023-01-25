@@ -10,7 +10,7 @@ body{
     background-attachment: fixed;
 }
 section{
-    height: 100vh;
+    
     width: 1170px;
     background-color: rgba(165, 169, 153, 0.402);
     text-align: center;
@@ -47,5 +47,24 @@ li a:hover{
 }
 img{
     margin-top: 35px;
+}
+.lastAlbumBtn, .buyBtn{
+    background-color: black;
+    font-family: 'Roboto',sans-serif;
+    margin-top: 50px;
+    font-size: 24px;
+    height: 54px;
+}
+.lastAlbumBtn:hover,.buyBtn:hover{
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.347);
+    cursor: pointer;
+}
+.lastAlbumBtn{
+    color: #ccc8c3;
+    width: 500px;
+}
+.buyBtn{
+    color: #f6ead4;
+    width: 180px;
 }
 
