@@ -94,6 +94,14 @@ h1{
 }
 .tableBtn1{
     background-color: rgba(165, 169, 153, 0.63);
+    border: 1px solid #f6ead4;
+    margin-right: 10px;
+    color: black;
+}
+.tableBtn2{
+    margin-right: 15px;
+    background-color: #f6ead4;
+    border: none;
 }
 .local{
     width: 850px;
@@ -102,6 +110,7 @@ h1{
 table{
     margin-left: 20px;
     font-weight: 500;
+    border-collapse: collapse;
 }
 caption{
     text-align: left;
@@ -110,5 +119,14 @@ caption{
     margin-bottom: 10px;
     font-size: 25px;
     font-family: 'Roboto',sans-serif;
+}
+.showAll{
+    font-family: 'Roboto',sans-serif;
+    background-color:rgba(165, 169, 153, 0.63) ;
+    border:1px solid #f6ead4;
+    font-size: 20px;
+    font-weight: 800;
+    height: 46px;
+    width: 1145px;
 }
 
