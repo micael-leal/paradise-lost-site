@@ -12,7 +12,7 @@ body{
 section{
     
     width: 1170px;
-    background-color: rgba(165, 169, 153, 0.402);
+    background-color: rgba(165, 169, 153, 0.63);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -54,6 +54,7 @@ img{
     margin-top: 50px;
     font-size: 24px;
     height: 54px;
+    margin-bottom: 50px;
 }
 .lastAlbumBtn:hover,.buyBtn:hover{
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.347);
@@ -66,5 +67,48 @@ img{
 .buyBtn{
     color: #f6ead4;
     width: 180px;
+}
+h1{
+    text-align: left;
+    color:black ;
+    font-family: 'Roboto',sans-serif;
+    margin-left: 20px;
+}
+.track{
+    text-decoration: underline;
+    color: black;
+}
+.date,.local,.city{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    border-top: 1px solid black;
+}
+.tableBtn{
+    border-top: 1px solid black;
+}
+.tableBtn1,.tableBtn2{
+    height: 46px;
+    width: 150px;
+    font-weight: 800;
+}
+.tableBtn1{
+    background-color: rgba(165, 169, 153, 0.63);
+}
+.local{
+    width: 850px;
+    text-align: left;
+}
+table{
+    margin-left: 20px;
+    font-weight: 500;
+}
+caption{
+    text-align: left;
+    margin-left: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Roboto',sans-serif;
 }
 
